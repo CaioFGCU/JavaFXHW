@@ -4,9 +4,10 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 
-import java.awt.event.ActionEvent;
+
 
 
 
@@ -28,8 +29,11 @@ public class Controller {
         @FXML
         private PasswordField inputPassword;
 
+        //@FXML
+        //private Button loginButton;
+
         @FXML
-        void Buttonpressed(ActionEvent event) {
+        void Buttonpressed(MouseEvent event) {
 
         }
 
